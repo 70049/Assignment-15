@@ -1,0 +1,44 @@
+Q1.   Write a python script to create a string in 3 different possible way.
+Ans.   c1="MySirG"
+       c1='MySirG'
+       c1='''MySirG'''
+       
+Q2.   Write a python script to get the character from position 2 to position 5(given string 'iNeuron' using slice syntax)
+Ans.   c1="iNeuron"
+       print(c1[2:5:1])
+       
+Q3.   Write a python script to get a character from position 2 to position 5(given string "Hello Learner" using slice syntax)
+Ans.   c1="Hello Learner"
+       print(c1[2:5:1])
+       
+Q4.   Write a python script to demonstrate string concatination adding space in between(a='Learning' b='python')
+Ans.   c1="Learnig Python"
+       print(' '.join(c1))
+       
+Q5.   Write a python script to get the count of total number of character in string a="iNeuron".
+Ans.   a="iNeuron"
+       print(len(a))
+       
+Q6.   Write a python script to reverse a string "iNeuron".
+Ans.   c1="iNeuron"
+       print(c1[::-1])
+       
+Q7.   Write  a pyhton script to determine wether a string contain a specific substring.
+Ans.   c1="iNeuron Is the Top of the World plateform to learn and grow in your Career"
+       print(c1.split(' '))
+       
+Q8.   Write  a python string to check if  a string contaions only numbers.
+Ans.   c1="132542151201"
+       print(c1.isdigit())      ->True
+       print(c1.isalnum())      ->True
+       
+Q9.   Write a python string to check if a string contaions only character of the alphabates.
+Ans.   c1="Google"
+       print(c1.isalpha())      ->True
+       print(c1.isdigit())      ->False
+       print(c1.isalnum())      ->True
+       
+Q10.  Write a python script to convert a integer to a string.
+Ans.   c1=10
+       print("{} is the last Question".format(c1))
+   
